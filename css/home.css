@@ -1,0 +1,83 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Alegreya', serif;
+  font-size: 2em;
+text-transform: uppercase;
+}
+.navbar-collapse{
+  padding-left: 1em;
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-size: 1.3em;
+  color: #f1f1f1;
+}
+.leftpanel{
+  /* background-color: #404040; */
+  position: fixed;
+  height: 100vh;
+  padding: 5em 0 0 0 ;
+  border-right: 1px solid #e0e0e0;
+}
+.leftpanel ul{
+  margin: 0.2em;;
+  padding: 0;
+}
+.leftpanel ul li{
+  margin: 0.7em .5em;
+  padding: .5em;
+list-style: none;
+font-size: 1.3em;
+border-bottom: 1px solid #f1f1f1;
+box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.1);
+background-color: #FFEE58;
+border-color: #FFEE58;
+
+}
+.leftpanel ul a{
+  color: #000;
+}
+.leftpanel ul a:hover{
+  text-decoration: none;
+}
+.rightpanel #generatetransfer, .rightpanel #create_enquiry, .rightpanel #pending_followup, .rightpanel #purchased_followup, .rightpanel #closed_followup{
+    padding: 5em 0em 5em 12em;
+}
+.rightpanel h3{
+  text-align: center;
+  padding-bottom: 1em;
+}
+.rightpanel #generatetransfer .card, .rightpanel #create_enquiry .card, .rightpanel #pending_followup .card, .rightpanel #purchased_followup .card, .rightpanel #closed_followup .card {
+  border-radius: 0;
+  padding: 2em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.1);
+}
+#generatetransfer button, #create_enquiry button, #pending_followup button, #purchased_followup button, #closed_followup button{
+  border-radius: 0;
+  margin-right: .5em;
+  padding: .5em 1em;
+}
+.center{
+  text-align: center;
+}
+.create_enquiry{
+  background-color: #FFEE58;
+  border-color: #FFEE58;
+}
+.pending_followup{
+  background-color: #FFEE58;
+  border-color: #FFEE58;
+}
+.purchased_followup{
+  background-color: #FFEE58;
+  border-color: #FFEE58;
+}
+.closed_followup{
+  background-color: #FFEE58;
+  border-color: #FFEE58;
+}
+.statistics{
+  background-color: #FFEE58;
+  border-color: #FFEE58;
+}

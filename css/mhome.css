@@ -1,0 +1,101 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+nav{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.navbar-brand{
+  font-family: 'Alegreya', serif;
+  font-size: 2em;
+text-transform: uppercase;
+}
+.navbar-collapse{
+  padding-left: 1em;
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-size: 1.3em;
+  color: #f1f1f1;
+}
+.leftpanel{
+  width: 20%;
+  /* background-color: #404040; */
+  position: fixed;
+  height: 100vh;
+  padding: 5em 1em 0 0 ;
+  border-right: 1px solid #e0e0e0;
+}
+.leftpanel a button{
+  display: block;
+  margin: 0.7em 0;
+  height: 4em;
+  width: 100%;
+  font-size: 1.3em;
+}
+.leftpanel a{
+  color: #000;
+}
+.leftpanel a:hover{
+  text-decoration: none;
+}
+.rightpanel{
+  /* margin-top: 5em; */
+}
+.rightpanel .rightstart, .rightpanel #generatetransfer, .rightpanel #create_enquiry, .rightpanel #pending_followup, .rightpanel #purchased_followup, .rightpanel #closed_followup{
+    padding: 5em 0em 2em 10em;
+      margin-left:12%;
+}
+.rightpanel h3{
+  text-align: center;
+  padding-bottom: 1em;
+}
+.rightpanel .card, .rightpanel #generatetransfer .card, .rightpanel #create_enquiry .card, .rightpanel #pending_followup .card, .rightpanel #purchased_followup .card, .rightpanel #closed_followup .card {
+  border-radius: 0;
+  padding: 2em;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.1);
+}
+#generatetransfer button, #create_enquiry button, #pending_followup button, #purchased_followup button, #closed_followup button{
+  border-radius: 0;
+  margin-right: .5em;
+  padding: .5em 1em;
+}
+.center{
+  text-align: center;
+}
+.fixed{
+  position: fixed;
+  z-index: 2;
+  background-color: #f5f5f5;
+  width: 76%;
+  margin-top: -1em;
+}
+#pending_followup{
+  display: none;
+}
+.rightpanel #pending_followup{
+  padding-top: 1em;
+  padding-bottom: 15em;
+}
+.rightpanel a button{
+  display: block;
+  margin: 0.7em 0;
+  height: 3em;
+  width: 100%;
+  font-size: 1em;
+}
+.rightpanel .mdl-button--raised.mdl-button--colored{
+  background-color: #FFEB3B;
+  color: #000;
+}
+.rightpanel .section{
+  margin: 1em ;
+}
+.rightpanel #generate_booking .card{
+  margin-top: 1em;
+}
+.booking .rightpanel .card{
+  margin-top: 6em;
+}
+label{
+  text-transform: capitalize;
+}
